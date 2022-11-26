@@ -17,7 +17,7 @@ int pivot(int arr[],int n)
             end=mid;
         }
     }
-    return start;
+    return start;//start and end are both pointing on same min element
 }
 int main()
 {
